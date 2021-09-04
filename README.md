@@ -1,6 +1,3 @@
-# toDoList-WithMongoDB
-Used Mongo DB to keep my data saved locally 
-```
-npm i 
-```
-to install node modules
+# this is a to Do list Web App
+Used Mongo DB to keep my data saved locally.
+used express and node for backend routing.
