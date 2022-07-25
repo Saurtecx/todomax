@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 app.use(express.urlencoded({extended: false}))
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/maxtodoDB", {
+mongoose.connect('mongodb://saurtecx:saurabhmishra@cluster0-shard-00-00.ne0qs.mongodb.net:27017,cluster0-shard-00-01.ne0qs.mongodb.net:27017,cluster0-shard-00-02.ne0qs.mongodb.net:27017/?ssl=true&replicaSet=atlas-aede7j-shard-0&authSource=admin&retryWrites=true&w=majority', {
 useNewUrlParser: true,
 useUnifiedTopology: true ,
 useFindAndModify: false
